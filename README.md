@@ -9,18 +9,18 @@ Plugins que se utlizaron en el proyecto:  Cucumber for Java, git toolbox para el
 Git:
 
     git clone https://github.com/CarlosGutierrezDeveloper/prueba-tecnica
-    
+
 ## Ejecutar por CDM
 Para ejecutar el proyecto por CDM es necesario ir a la carpeta donde se encuentra los archivos del proyecto y  luego correr el siguiente comando.
-
 
 CMD:
 
     gradle  clean test -Pwebdriver.driver=chrome -Denvironment=staging
-
+    
 ### Estructura de carpetas
 
 El proyecto tiene scripts de compilación para Gradle, y sigue la estructura de directorio estándar utilizada en la mayoría de los proyectos de Serenity:
+
 ```Gherkin
 src
   + main
@@ -38,8 +38,6 @@ src
           geckodriver.exe
 
 ```
-
-
 ## Scenario utilizado en el proyecto
 
 ```Gherkin
@@ -50,9 +48,7 @@ Feature: Busqueda de producto
     When Se introduce la palabra de busqueda "Aceite de Oliva"
     Then Se muestra el resultado de "Aceite de Oliva"
 ```
-
 Este escenario nos permite explorar algunas de las nuevas expresiones de Cucumber 4. Cucumber 4 admite tanto las expresiones regulares clásicas como las nuevas _Cucumber Expressions_, que son más legibles aunque no tan potentes en algunos casos. 
-
 
 ### Objetos de página ajustada y clases de acción
 Estas clases se declaran utilizando la anotación de Serenity `@ Steps`, que se muestra a continuación:
@@ -66,8 +62,6 @@ Estas clases se declaran utilizando la anotación de Serenity `@ Steps`, que se 
     @Steps
     SearchResult searchResult;
 ```
-
-
 Lo hace utilizando un objeto de página de Serenity estándar. Los objetos de página suelen ser mínimos y solo almacenan la URL de la página en sí:
 ```java
 @DefaultUrl("https://www.wong.pe")
