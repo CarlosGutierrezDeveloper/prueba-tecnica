@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Quito producto" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-02-17T01:09:43" hostname="CAGUTIERREZ" time="0.019">
+  <properties/>
+  <testcase name="Como usuario requiero quitar un producto del carrito de compras" classname="Quito producto" time="0.019">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[
+Feature: Quito producto
+
+  Scenario: Como usuario requiero quitar un producto del carrito de compras ?[90m# src/test/resources/features/carrito_compras/quitado.feature:2?[0m
+20:09:43.921 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+Como usuario requiero quitar un producto del carrito de compras(quito-producto;como-usuario-requiero-quitar-un-producto-del-carrito-de-compras)
+-------------------------------------------------------------------
+    ?[33mGiven ?[0m?[33mcarlos consulta el producto en el carrito?[0m                         ?[90m# quitadoStepDefinitions.carlos_consulta_el_producto_en_el_carrito()?[0m
+      ?[33mcucumber.api.PendingException: TODO: implement me
+	at starter.stepdefinitions.quitadoStepDefinitions.carlos_consulta_el_producto_en_el_carrito(quitadoStepDefinitions.java:12)
+	at ?.carlos consulta el producto en el carrito(file:src/test/resources/features/carrito_compras/quitado.feature:3)
+?[0m
+    ?[36mWhen ?[0m?[36mSe quita el producto del carrito de compras?[0m                        ?[90m# quitadoStepDefinitions.se_quita_el_producto_del_carrito_de_compras()?[0m
+    ?[36mThen ?[0m?[36mel producto no esta en el carrito de compras?[0m                       ?[90m# quitadoStepDefinitions.el_producto_no_esta_en_el_carrito_de_compras()?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

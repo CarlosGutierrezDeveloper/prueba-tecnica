@@ -1,0 +1,28 @@
+starter/ui/consulta/ConsultaForm.java
+ starter.ui.consulta.ConsultaForm
+starter/stepdefinitions/quitadoStepDefinitions.java
+ starter.stepdefinitions.quitadoStepDefinitions
+starter/ui/resultado/OverviewData.java
+ starter.ui.resultado.OverviewData
+starter/stepdefinitions/AgregarStepDefinitions.java
+ starter.stepdefinitions.AgregarStepDefinitions
+starter/ui/consulta/DoConsulta.java
+ starter.ui.consulta.DoConsulta
+starter/ui/agregar/DoAgregar.java
+ starter.ui.agregar.DoAgregar
+starter/ui/agregar/AgregarForm.java
+ starter.ui.agregar.AgregarForm
+starter/ui/resultado/FinancialOverview.java
+ starter.ui.resultado.FinancialOverview
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/navigation/WongHomePage.java
+ starter.navigation.WongHomePage
+starter/ui/resultado/CreditAvailable.java
+ starter.ui.resultado.CreditAvailable
+starter/stepdefinitions/ConsultaStepDefinitions.java
+ starter.stepdefinitions.ConsultaStepDefinitions
+starter/matchers/StringContainsIgnoringCase.java
+ starter.matchers.StringContainsIgnoringCase
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo
