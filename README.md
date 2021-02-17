@@ -8,10 +8,8 @@ Plugins que se utlizaron en el proyecto:  Cucumber for Java, git toolbox para el
 
 Git:
 
-    git clone https://github.com/serenity-bdd/serenity-cucumber4-starter.git
-    cd serenity-cucumber4-starter
-
-
+    git clone https://github.com/CarlosGutierrezDeveloper/prueba-tecnica
+    
 ## Ejecutar por CDM
 Para ejecutar el proyecto por CDM es necesario ir a la carpeta donde se encuentra los archivos del proyecto y  luego correr el siguiente comando.
 
